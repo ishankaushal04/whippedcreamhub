@@ -1,6 +1,46 @@
 <html>
-  <body>
-    <h1>HIII</h1>
-    <img src="https://github.com/msr8/wallpapers/blob/main/hearts%203840x2160.png">
-  </body>
+    <head>
+        <style>
+            #heading {font-size: 3em;}
+
+            .button {
+                display: inline-block;
+                padding: 10px 20px;
+                margin: 10px;
+                border: 1px solid black;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+
+            img {
+                width: 400px;
+                height: 400px;
+                filter: blur(40px);
+            }
+        </style>
+
+        <script>
+            function prompts() {
+                let chc = confirm("Do you really want to watch this??");
+                if (chc) {
+                    alert("Damn someone was saying no to watching this. Caught you red-handed");
+                }
+                else {
+                    alert("Damn you are missing out on some very good shit")
+                }
+            }
+        </script>
+    </head>
+
+    <body>
+        <h1 id="heading">Hey techie, heres the link I was talking about;</h1>
+
+        <br>
+
+        <div onclick="prompts()" class="button">Watch this</div>
+
+        <br>
+
+        <img src="https://www.recipetineats.com/wp-content/uploads/2022/11/Chantilly-cream_5.jpg">
+    </body>
 </html>
